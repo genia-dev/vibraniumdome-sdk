@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vibraniumdome-sdk"
+version = "0.1.0"
+description = "vibraniumdome-sdk"
+authors = ["Uri Shamay <cmpxchg16@gmail.com>", "Shlomi Shemesh <shlomosh@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vibraniumdome_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+traceloop-sdk = "^0.3.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+openai = "^0.28.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
