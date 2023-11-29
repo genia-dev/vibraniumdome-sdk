@@ -2,6 +2,8 @@
 
 ## Overview
 
+Client SDK to send LLM interactions to the [Vibranium Dome System](https://github.com/genia-dev/vibraniumdome).
+
 ## Getting Started 
 
 ### Install the PiPY package
