@@ -15,10 +15,11 @@ pip3 install vibraniumdome-sdk
 ```
 
 ### Run sample
-To start trace your OpenAI, you need to define `VIBRANIUM_DOME_BASE_URL` environment variable to point Vibranium Dome service; if you run it locally via the basic installation:
+To start trace your OpenAI, you need to define `VIBRANIUM_DOME_BASE_URL` environment variable to point Vibranium Dome service, and to set `VIBRANIUM_DOME_API_KEY` from [Vibranium Dome System](https://github.com/genia-dev/vibraniumdome); Run it locally via the basic installation:
 
 ```
 export VIBRANIUM_DOME_BASE_URL=http://localhost:5001
+export VIBRANIUM_DOME_API_KEY=vibranium...
 ```
 
 Code sample:
